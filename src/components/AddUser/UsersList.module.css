@@ -1,0 +1,40 @@
+.users {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  overflow: hidden;
+}
+
+.users ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.users li {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  font: inherit;
+  border: 1px solid red;
+  background: red;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  width: 100px;
+}
+
+.delete-button:hover,
+.delete-button:active {
+  background: #c30404;
+  border-color: #c30404;
+}
+
+.delete-button:focus {
+  outline: none;
+}
